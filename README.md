@@ -1,3 +1,7 @@
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mostafaznv/nova-morph-filter.svg?style=flat-square)](https://packagist.org/packages/mostafaznv/nova-morph-filter)
+[![Software License](https://img.shields.io/badge/license-Apache-brightgreen.svg?style=flat-square)](LICENSE.txt)
+[![Total Downloads](https://img.shields.io/packagist/dt/mostafaznv/nova-morph-filter.svg?style=flat-square)](https://packagist.org/packages/mostafaznv/nova-morph-filter)
+
 # Morph Filter for Laravel Nova
 
 Morph filter fields for laravel nova
