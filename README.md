@@ -22,17 +22,14 @@ composer require mostafaznv/nova-morph-filter
 ```
 use Mostafaznv\NovaMorphFilter\NovaMorphFilter;
 
-
 class Post extends Resource
 {
     ...
-    
     
     public function fields(Request $request): array
     {
         return [
             ...
-
 
             MorphTo::make(trans('Owner'), 'owner')
                 ->types([Admin::class, User::class])
@@ -56,4 +53,4 @@ Refer to the [Changelog](CHANGELOG.md) for a full history of the project.
 ## License
 This software released under [Apache License Version 2.0](LICENSE.txt).
 
-(C) 2021 Mostafaznv, All rights reserved.
+(C) 2022 Mostafaznv, All rights reserved.
