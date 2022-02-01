@@ -4,6 +4,7 @@ namespace Mostafaznv\NovaMorphFilter;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 use Laravel\Nova\Filters\Filter;
 use Laravel\Nova\Nova;
 use Laravel\Nova\Resource;
@@ -46,7 +47,7 @@ class NovaMorphFilter extends Filter
             if (is_subclass_of($type, Resource::class)) {
                 $this->types[] = [
                     'display' => $type::singularLabel(),
-                    'value'   => $type::newModel()->getTable()
+                    'value'   => Str::replace('_', '-', $type::newModel()->getTable())
                 ];
             }
         }
