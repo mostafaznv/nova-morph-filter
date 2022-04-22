@@ -34,11 +34,15 @@ class NovaMorphFilter extends Filter
     public function setTypeColumn(string $column): self
     {
         $this->typeColumn = $column;
+
+        return $this;
     }
 
     public function setIdColumn(string $column): self
     {
         $this->idColumn = $column;
+
+        return $this;
     }
 
     public function types(array $types): self
