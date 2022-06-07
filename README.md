@@ -6,6 +6,12 @@
 
 Morph filter fields for laravel nova
 
+----
+🚀 If you find this project interesting, please consider supporting me on the open source journey
+
+[![Donate](https://mostafaznv.github.io/donate/donate.svg)](https://mostafaznv.github.io/donate)
+
+----
 
 ## Requirements:
 
@@ -50,6 +56,13 @@ class Post extends Resource
     }
 }
 ```
+
+----
+🚀 If you find this project interesting, please consider supporting me on the open source journey
+
+[![Donate](https://mostafaznv.github.io/donate/donate.svg)](https://mostafaznv.github.io/donate)
+
+----
 
 ## Changelog
 Refer to the [Changelog](CHANGELOG.md) for a full history of the project.
